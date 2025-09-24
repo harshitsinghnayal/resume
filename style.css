@@ -1,0 +1,71 @@
+/* Global body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+/* Section styles */
+section {
+    margin: auto 1em 4em 2em;
+}
+
+/* Paragraph spacing */
+p {
+    margin: .2em auto;
+}
+
+/* Icon spacing */
+i {
+    margin-right: .5em;
+}
+
+/* Horizontal rules */
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+/* Header sizes and spacing */
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+/* Reduce font weight for headers */
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+/* Two-column grid layout */
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+
+/* Left column border */
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
