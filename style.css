@@ -65,6 +65,7 @@ main {
     margin-top: 3em;
 }
 
+/* Left column border */
 #mainLeft {
     border-right: 1px solid lightgray;
 }
